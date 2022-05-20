@@ -1,3 +1,77 @@
-.credit {
-  float:right;
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700,900);
+body,button,input,select,textarea {
+  font-family: Lato,sans-serif;
+}
+
+body {
+  background-color: white;
+  color: #4a4a4a;
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.5;
+}
+header
+{
+  display: flex;
+}
+#headshot 
+{
+  position: absolute;
+  left: 50%;
+  width: 200px;
+  height: auto;
+  border-radius: 50%
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.stockton{
+    padding-top: 20px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    border-radius: 15px;
+}
+#stockton-img{
+    border-radius: 15px;
+}
+.footer-card{
+    background-color: white;
+    width: 250px;
+    
+
+    border-radius: 5px;
+}
+.footer-card2{
+    background-color: white;
+    width: 300px;
+    
+
+    border-radius: 5px;
+}
+
+.container {
+  box-shadow: 5px 5px 15px rgba(182, 182, 182, 0.527);
 }
